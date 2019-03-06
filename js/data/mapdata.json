@@ -1,0 +1,734 @@
+{
+  "housetype_filter": [
+    {
+      "id": "all",
+      "name": "All property types"
+    },
+    {
+      "id": "all",
+      "name": "All property types"
+    },
+    {
+      "id": "D.",
+      "name": "​Detached",
+      "default": true
+    },
+    {
+      "id": "S.",
+      "name": "​Semi-Detached"
+    },
+    {
+      "id": "A.",
+      "name": "​Freehold Townhouse"
+    },
+    {
+      "id": "T.",
+      "name": "​Condo Townhouse"
+    },
+    {
+      "id": "C.",
+      "name": "​Condo Apt"
+    },
+    {
+      "id": "L.",
+      "name": "​Link"
+    },
+    {
+      "id": "J.",
+      "name": "​Multiplex"
+    },
+    {
+      "id": "V.",
+      "name": "​Vacant Land"
+    }
+  ],
+  "days_filter": [
+    {
+      "id": 1,
+      "name": "Last 1 days",
+      "abbr": "1d"
+    },
+    {
+      "id": 7,
+      "name": "Last 7 days",
+      "abbr": "7d"
+    },
+    {
+      "id": 30,
+      "name": "Last 30 days",
+      "abbr": "30d"
+    },
+    {
+      "id": 90,
+      "name": "Last 90 days",
+      "abbr": "90d"
+    },
+    {
+      "id": 0,
+      "name": "Listing date - All",
+      "abbr": "All"
+    }
+  ],
+  "list": [
+    {
+      "id_listing": "MB5bO3xrMxWykWVP",
+      "lat": 43.672073,
+      "lng": -79.370331,
+      "price": "1.2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "gJRv53KnOOx7VPW4",
+      "lat": 43.66111,
+      "lng": -79.37654,
+      "price": "0.55M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "gJRv53KnOzP7VPW4",
+      "lat": 43.67649,
+      "lng": -79.37184,
+      "price": "6.5M",
+      "house_type": "D",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "L5VXv3lPEkA3j2q8",
+      "lat": 43.6699,
+      "lng": -79.38148,
+      "price": "0.43M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "jJKdOYrnVXjY54lW",
+      "lat": 43.66341,
+      "lng": -79.37675,
+      "price": "0.6M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "L5VXv3lPELO3j2q8",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.72M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "obqB17699pnyZajD",
+      "lat": 43.66385,
+      "lng": -79.38034,
+      "price": "0.45M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BXeEn7Xoom0yrPo8",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "0.49M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0MWBVyZaag4YKemj",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "0.73M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "mLzQ1y522OM7qdeK",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.97M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "knbq6y1ooqx3o9DA",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "0.48M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BDO1w3WvZnq78Jg0",
+      "lat": 43.66798,
+      "lng": -79.37553,
+      "price": "0.57M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "6VLaGyGBZ1jYW1ZD",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "65K",
+      "house_type": null,
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "510QqypdVE8yLGlV",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "1.3M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "VaD6p78zBDVYwRQr",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "0.75M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "5xLkv3Vg8KnYDBNr",
+      "lat": 43.67592,
+      "lng": -79.37079,
+      "price": "3.6M",
+      "house_type": "D",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "5xLkv3Vg8kRYDBNr",
+      "lat": 43.66929,
+      "lng": -79.38413,
+      "price": "0.8M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOMZ5YZ1MW",
+      "lat": 43.66115,
+      "lng": -79.38159,
+      "price": "0.55M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "DnM697kAdPGYbmwe",
+      "lat": 43.66394,
+      "lng": -79.36871,
+      "price": "2.1M",
+      "house_type": "D",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOWN9YZ1MW",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.86M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "PXRla7gVP49yjEvL",
+      "lat": 43.67056,
+      "lng": -79.38141,
+      "price": "0.88M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BGMnKYqw1X17w1Qr",
+      "lat": 43.67202,
+      "lng": -79.37977,
+      "price": "1.1M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BDO1w3WvMnw78Jg0",
+      "lat": 43.66929,
+      "lng": -79.38413,
+      "price": "0.2K",
+      "house_type": null,
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BGMnKYqwAm17w1Qr",
+      "lat": 43.6611,
+      "lng": -79.38193,
+      "price": "0.92M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "kbEDRYaEMblY1VaB",
+      "lat": 43.67227,
+      "lng": -79.38041,
+      "price": "1.7M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "PXRla7gVE09yjEvL",
+      "lat": 43.67075,
+      "lng": -79.37726,
+      "price": "0.73M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0Zaw5YoJx0m3n961",
+      "lat": 43.67202,
+      "lng": -79.37977,
+      "price": "1.2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "oK8OgYBx5K07JmG2",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "50K",
+      "house_type": null,
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "02Zpj39M5vV3DrK8",
+      "lat": 43.66093,
+      "lng": -79.37864,
+      "price": "0.45M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "5xLkv3VgmWxYDBNr",
+      "lat": 43.67461,
+      "lng": -79.37857,
+      "price": "7M",
+      "house_type": "D",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOgz5YZ1MW",
+      "lat": 43.67198,
+      "lng": -79.3734,
+      "price": "1.2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "510Qqypd9L6yLGlV",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "0.8M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "ZNkKJ3JwqeNYd4V6",
+      "lat": 43.6611,
+      "lng": -79.38193,
+      "price": "0.69M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "ZEXrx30vVAlyOklN",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.8M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "L4KAX7Nl6ZdYeRPJ",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.57M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "r56k97wpbbG3KRjD",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "0.46M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "xmZRW7nKmga3EBO9",
+      "lat": 43.660586,
+      "lng": -79.378515,
+      "price": "1M",
+      "house_type": "T",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0Zaw5YoJmXq3n961",
+      "lat": 43.66929,
+      "lng": -79.38413,
+      "price": "1.1M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "dXawjy45mDq7rR18",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.66M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0Zaw5YoJdnl3n961",
+      "lat": 43.6659,
+      "lng": -79.38345,
+      "price": "0.75M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOekVYZ1MW",
+      "lat": 43.66125,
+      "lng": -79.37849,
+      "price": "1.4M",
+      "house_type": null,
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0ZxwR7M8oVzyKabB",
+      "lat": 43.67202,
+      "lng": -79.37977,
+      "price": "0.75M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOeVVYZ1MW",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.79M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "zVwod7vBlaG75mGN",
+      "lat": 43.665368,
+      "lng": -79.383084,
+      "price": "0.85M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "kbEDRYaE525Y1VaB",
+      "lat": 43.66549,
+      "lng": -79.38329,
+      "price": "1.4M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "L5VXv3lPAXw3j2q8",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "0.8K",
+      "house_type": null,
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "JjAXw7QrvVQ3QOzg",
+      "lat": 43.67248,
+      "lng": -79.37809,
+      "price": "1.7M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "RdXze3eqx2g38m9K",
+      "lat": 43.66963,
+      "lng": -79.38056,
+      "price": "0.47M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "x9w8o3mkw9ZyGKjm",
+      "lat": 43.6763,
+      "lng": -79.373316,
+      "price": "2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "DnM697kAJw1Ybmwe",
+      "lat": 43.66027,
+      "lng": -79.36804,
+      "price": "1.4M",
+      "house_type": "T",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "xmZRW7nKA6J3EBO9",
+      "lat": 43.66798,
+      "lng": -79.37553,
+      "price": "0.67M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "MB5bO3xrlmgykWVP",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "2.2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "DnM697kAOPmYbmwe",
+      "lat": 43.66879,
+      "lng": -79.38393,
+      "price": "0.76M",
+      "house_type": "C",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOKXmYZ1MW",
+      "lat": 43.66412,
+      "lng": -79.36969,
+      "price": "3.1M",
+      "house_type": "D",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "0J6Em7bRpxB7XBeq",
+      "lat": 43.66176,
+      "lng": -79.38363,
+      "price": "1.7M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "zVwod7vBv1975mGN",
+      "lat": 43.66341,
+      "lng": -79.37675,
+      "price": "0.61M",
+      "house_type": "T",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "damgL7AOd8pYZ1MW",
+      "lat": 43.67008,
+      "lng": -79.38051,
+      "price": "0.54M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "gJRv53KnVBx7VPW4",
+      "lat": 43.66929,
+      "lng": -79.38413,
+      "price": "0.6M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BXeEn7Xo8Q0yrPo8",
+      "lat": 43.665368,
+      "lng": -79.383084,
+      "price": "1.2M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "dXawjy456267rR18",
+      "lat": 43.6693,
+      "lng": -79.38207,
+      "price": "1M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "2Z5BX32GjR1YDar0",
+      "lat": 43.66093,
+      "lng": -79.37864,
+      "price": "0.66M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "VaD6p78an463wRQr",
+      "lat": 43.6611,
+      "lng": -79.38193,
+      "price": "0.65M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "EeVbOYEm1BVYx2P0",
+      "lat": 43.67056,
+      "lng": -79.38141,
+      "price": "0.65M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "BDO1w3WmrjOy8Jg0",
+      "lat": 43.66957,
+      "lng": -79.38373,
+      "price": "1.5M",
+      "house_type": "C",
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "b1DBW7RkdKA3qlAp",
+      "lat": 43.68028,
+      "lng": -79.37463,
+      "price": "12M",
+      "house_type": "D",
+      "flg_idx": 0,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    },
+    {
+      "id_listing": "weQp5yO2wl0Yd0ZE",
+      "lat": 43.66929,
+      "lng": -79.38413,
+      "price": "65K",
+      "house_type": null,
+      "flg_idx": 1,
+      "flg_disp_addr": 1,
+      "marker": "active"
+    }
+  ]
+}
