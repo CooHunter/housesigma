@@ -30,7 +30,7 @@ class DropdownMenu extends Component {
     }
   }
 
-  selectMenu = index => () => {
+  selectMenu = (index, item) => () => {
     const { activityIndex, selectIndex } = this.state
     if (activityIndex >= 0) {
       selectIndex[activityIndex] = index
@@ -39,6 +39,7 @@ class DropdownMenu extends Component {
       })
     }
     this.toggleMenu(activityIndex)()
+    this.props.handler(item)
   }
 
   renderButton() {
@@ -92,7 +93,7 @@ class DropdownMenu extends Component {
                     style={{flex: 1, height: 30}}
                   >
                     <TouchableWithoutFeedback
-                      onPress={this.selectMenu(index)}
+                      onPress={this.selectMenu(index, item)}
                     >
                       <Text style={{fontSize: 14}}>{item.name}</Text>
                     </TouchableWithoutFeedback>

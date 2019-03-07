@@ -1,11 +1,26 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native'
 import { connect } from 'react-redux'
 import DropdownMenu from '../../../components/DropdowMenu'
-import GoogleMaps from './map' 
+import GoogleMaps from './map'
+import { setFilter } from '../actions'
 
 class Maps extends Component {
-  render() {
+  constructor() {
+    super()
+  }
+
+  handler = (item) => {
+    if (item.type === 'housetype') {
+      this.props.filter(item.id)
+    }
+  }
+
+  renderIOS() {
+    return null
+  }
+
+  renderAndroid() {
     const { daysFilter, housetypeFilter, list } = this.props
 
     return (
@@ -14,6 +29,7 @@ class Maps extends Component {
         {/* <View style={styles.menu}>
           <DropdownMenu
             data={[daysFilter, housetypeFilter]}
+            handler={this.handler}
           />
         </View>
         <View style={styles.maps}>
@@ -22,30 +38,32 @@ class Maps extends Component {
       </View>
     )
   }
+
+  render() {
+    return Platform.OS === 'ios' ? this.renderIOS() : this.renderAndroid()
+  }
 }
 
-function formatList(list) {
-  const ret = []
-  const len = list.length
-  for (let i = 0; i < len; i++) {
-    const item = list[i]
-    ret.push(Object.assign({}, item, {
-      latitude: item.lat,
-      longitude: item.lng,
-      location: {
-        latitude: item.lat,
-        longitude: item.lng
-      }
-    }))
+const selectList = (list, filter) => {
+  if (filter === 'all') {
+    return list
   }
-  return ret
+  return list.filter(item => item.house_type === filter)
 }
 
 const mapStateToProps = state => {
   return {
     daysFilter: state.maps.daysFilter,
     housetypeFilter: state.maps.housetypeFilter,
-    list: formatList(state.maps.list)
+    list: selectList(state.maps.list, state.maps.filter)
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    filter: id => {
+      dispatch(setFilter(id))
+    }
   }
 }
 
@@ -62,4 +80,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default connect(mapStateToProps)(Maps)
+export default connect(mapStateToProps, mapDispatchToProps)(Maps)
