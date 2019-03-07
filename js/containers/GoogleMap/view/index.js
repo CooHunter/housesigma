@@ -69,6 +69,7 @@ class Maps extends Component {
           <DropdownMenu
             data={[daysFilter, housetypeFilter]}
             handler={this.handler}
+            fixUI={this.fixUI}
           />
         </View>
       </View>
