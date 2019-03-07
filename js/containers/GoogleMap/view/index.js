@@ -10,14 +10,15 @@ class Maps extends Component {
 
     return (
       <View style={{flex: 1}}>
-        <View style={styles.maps}>
-          <GoogleMaps list={list} />
-        </View>
-        <View style={styles.menu}>
+        <Text>13</Text>
+        {/* <View style={styles.menu}>
           <DropdownMenu
             data={[daysFilter, housetypeFilter]}
           />
         </View>
+        <View style={styles.maps}>
+          <GoogleMaps list={list} />
+        </View> */}
       </View>
     )
   }
