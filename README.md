@@ -5,7 +5,7 @@ npm install
 
 # IOS 编译运行
 * 真机运行，按照官方文档（1-3）[Running On Device · React Native](https://facebook.github.io/react-native/docs/running-on-device)
-* 模拟器运行，根目录执行react-native run-is
+* 模拟器运行，根目录执行react-native run-ios
 
 # Android 编译运行
 * 配置环境比较复杂，会比较耗时，需要安装整套Android开发环境，根据官网文档可以跑通[Getting Started · React Native](https://facebook.github.io/react-native/docs/getting-started)
