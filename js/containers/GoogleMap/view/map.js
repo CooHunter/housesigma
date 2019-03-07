@@ -50,6 +50,7 @@ class GoogleMaps extends Component {
         renderCluster={this.renderCluster}
         initialRegion={{latitude: 43.672073, longitude: -79.370331, latitudeDelta: 0.1, longitudeDelta: 0.1 }}
         showsMyLocationButton={true}
+        showsUserLocation={true}
       >
       </ClusteredMapView>
     )
