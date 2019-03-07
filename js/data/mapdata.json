@@ -5,40 +5,36 @@
       "name": "All property types"
     },
     {
-      "id": "all",
-      "name": "All property types"
-    },
-    {
-      "id": "D.",
+      "id": "D",
       "name": "​Detached",
       "default": true
     },
     {
-      "id": "S.",
+      "id": "S",
       "name": "​Semi-Detached"
     },
     {
-      "id": "A.",
+      "id": "A",
       "name": "​Freehold Townhouse"
     },
     {
-      "id": "T.",
+      "id": "T",
       "name": "​Condo Townhouse"
     },
     {
-      "id": "C.",
+      "id": "C",
       "name": "​Condo Apt"
     },
     {
-      "id": "L.",
+      "id": "L",
       "name": "​Link"
     },
     {
-      "id": "J.",
+      "id": "J",
       "name": "​Multiplex"
     },
     {
-      "id": "V.",
+      "id": "V",
       "name": "​Vacant Land"
     }
   ],

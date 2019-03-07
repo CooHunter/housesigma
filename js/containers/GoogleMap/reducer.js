@@ -1,5 +1,9 @@
+import data from '../../data/mapdata.json'
+
 const initState = {
-  title: 'hello, world!'
+  daysFilter: data.days_filter,
+  housetypeFilter: data.housetype_filter,
+  list: data.list
 }
 
 export default function googleMaps(state = initState, action) {
