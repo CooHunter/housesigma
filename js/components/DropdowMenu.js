@@ -23,10 +23,12 @@ class DropdownMenu extends Component {
       this.setState({
         activityIndex: -1
       })
+      this.props.fixUI(false)
     } else {
       this.setState({
         activityIndex: index
       })
+      this.props.fixUI(true)
     }
   }
 

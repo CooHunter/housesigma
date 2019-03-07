@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Platform } from 'react-native'
+import { SafeAreaView, View, StyleSheet, Platform } from 'react-native'
 import { connect } from 'react-redux'
 import DropdownMenu from '../../../components/DropdowMenu'
 import GoogleMaps from './map'
@@ -8,6 +8,9 @@ import { setFilter } from '../actions'
 class Maps extends Component {
   constructor() {
     super()
+    this.state = {
+      iosStyle: null
+    }
   }
 
   handler = (item) => {
@@ -16,8 +19,42 @@ class Maps extends Component {
     }
   }
 
+  fixUI = isShowMenu => {
+    if (Platform.OS !== 'ios') {
+      return
+    }
+    if (isShowMenu) {
+      this.setState({
+        iosStyle: {
+          zIndex: 1
+        }
+      })
+    } else {
+      this.setState({
+        iosStyle: null
+      })
+    }
+  }
+
   renderIOS() {
-    return null
+    const { daysFilter, housetypeFilter, list } = this.props
+
+    return (
+      <SafeAreaView style={{flex: 1, backgroundColor: '#fff'}}>
+        <View style={{flex: 1}}>
+          <View style={[styles.menu, this.state.iosStyle]}>
+            <DropdownMenu
+              data={[daysFilter, housetypeFilter]}
+              handler={this.handler}
+              fixUI={this.fixUI}
+            />
+          </View>
+          <View style={styles.maps}>
+            <GoogleMaps list={list} />
+          </View>
+        </View>
+      </SafeAreaView>
+    )
   }
 
   renderAndroid() {
@@ -25,16 +62,15 @@ class Maps extends Component {
 
     return (
       <View style={{flex: 1}}>
-        <Text>13</Text>
-        {/* <View style={styles.menu}>
+        <View style={styles.maps}>
+          <GoogleMaps list={list} />
+        </View>
+        <View style={styles.menu}>
           <DropdownMenu
             data={[daysFilter, housetypeFilter]}
             handler={this.handler}
           />
         </View>
-        <View style={styles.maps}>
-          <GoogleMaps list={list} />
-        </View> */}
       </View>
     )
   }
